@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cs336"
+version = "0.1.0"
+description = "CS336 学习记录与字节级 BPE 分词器实现"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.6",
+    "regex",
+]
+
+[tool.setuptools.packages.find]
+where = ["assignment1-basics"]
+include = ["cs336_basics*"]

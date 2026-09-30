@@ -1,0 +1,14 @@
+# 本地环境、编辑器和 Python 缓存
+.venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# 语料和训练产物留在本地；仓库记录代码和学习过程
+/data/
+.refactor-baseline/
