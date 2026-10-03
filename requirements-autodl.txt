@@ -1,0 +1,5 @@
+# AutoDL 基础镜像已经提供 GPU 版 PyTorch；只补运行代码需要的其他包。
+# 源码通过 PYTHONPATH=./assignment1-basics 导入，避免 editable 安装升级镜像中的 torch。
+numpy>=1.26,<3
+einops>=0.8.2
+regex

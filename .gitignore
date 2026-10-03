@@ -12,3 +12,19 @@ dist/
 # 语料和训练产物留在本地；仓库记录代码和学习过程
 /data/
 .refactor-baseline/
+
+/out/
+/wandb/
+
+# 大型训练数据、下载结果与备份保留在本地
+/assignment1-basics/data/
+/downloaded-run1/
+/model_result/
+/cs336-run1.tar.gz
+/*.zip
+/*.tar.gz
+/*.pt
+/*.pth
+*.pid
+.ipynb_checkpoints/
+# tests/fixtures 与 _snapshots 是上游的小型参考数据，保留供测试使用。

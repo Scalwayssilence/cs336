@@ -1,0 +1,62 @@
+{
+  "nn.py": {
+    "covered_nonempty_lines": 465,
+    "source_sha256": "7260199b69d8f57236cf567bcc76665433ad0fb38b73da98c517b8b6625a8696",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "data.py": {
+    "covered_nonempty_lines": 40,
+    "source_sha256": "68f4adc05da3c049e76c104b1c4d92f093a655425e0e04d26da831bbf9185be6",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "losses.py": {
+    "covered_nonempty_lines": 37,
+    "source_sha256": "8e064a9abedd7dc3d4783e3b24cf4e49763d36768037f59c5784231f40c12080",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "optimizer.py": {
+    "covered_nonempty_lines": 103,
+    "source_sha256": "513db142bbdbb018b7146e8456797e55952f9e7aa5676fe44b20a514ae5576af",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "scheduler.py": {
+    "covered_nonempty_lines": 34,
+    "source_sha256": "e9758249e508c6f433415ac6aa94f23d2a84e91d95f1f4b6f5d162b59bcc79e3",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "checkpointing.py": {
+    "covered_nonempty_lines": 43,
+    "source_sha256": "c568e32634d431e25f342c0023738160f330778ca767d978284e95c9fd3777c3",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "main_train.py": {
+    "covered_nonempty_lines": 170,
+    "source_sha256": "151b885773464ada1a59a8aee6853dc699b9567a6801a1f2ac5b3c62e24063af",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "tokenizer.py": {
+    "covered_nonempty_lines": 123,
+    "source_sha256": "3ab95a9e9ac22ed2ef3272184e97c502f64b9e27b5647b4473214738e0e8f0d5",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "train_bpe.py": {
+    "covered_nonempty_lines": 186,
+    "source_sha256": "cde206218c9e5fe32b367effe2617db782b07e8b7b2a6b311753d6591c781dbe",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "preprocess.py": {
+    "covered_nonempty_lines": 104,
+    "source_sha256": "d511a7891bd4718a0a44c3d9429272875d1d417a0c1b6f99d4555944bc929122",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "inference.py": {
+    "covered_nonempty_lines": 156,
+    "source_sha256": "43f0c381bb54a5153fdc8fed66d2937437ddd9da8d80e7f780e67baf9ec3ca7d",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  },
+  "sgd.py": {
+    "covered_nonempty_lines": 87,
+    "source_sha256": "00393eb4c5a75e32927a1d7601043a3bcd725a9c98db21cb83acf2b60610bd45",
+    "hash_convention": "UTF-8 after normalizing source line endings to LF"
+  }
+}

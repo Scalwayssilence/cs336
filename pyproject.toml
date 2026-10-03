@@ -5,11 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cs336"
 version = "0.1.0"
-description = "CS336 学习记录与字节级 BPE 分词器实现"
+description = "CS336 学习记录、字节级 BPE 分词器与 Transformer 语言模型"
 requires-python = ">=3.11"
 dependencies = [
+    "einops>=0.8.2",
     "numpy>=2.4.6",
     "regex",
+    "torch>=2.14.1",
 ]
 
 [tool.setuptools.packages.find]

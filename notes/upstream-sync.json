@@ -1,0 +1,530 @@
+{
+  "repository": "https://github.com/czbnlp/cs336-1",
+  "resolved_repository": "chaser026/cs336-1",
+  "commit": "c95273f997d2ab51505eef05e56325fb03c4278b",
+  "files": [
+    {
+      "source": ".gitignore",
+      "target": "notes/upstream-gitignore.txt",
+      "source_sha": "335b017e632512aceda237eb5726400ab2326c3d",
+      "status": "added",
+      "local_sha256": "4c3fdcb0053b1a4285751d32daad49bee40a50e385beede284eb9e408d42c4d0"
+    },
+    {
+      "source": "CHANGELOG.md",
+      "target": "CHANGELOG.md",
+      "source_sha": "ea782a770a94c955f47f262cfe73acc35a971a6a",
+      "status": "added",
+      "local_sha256": "0ec9be888f34e7812827250a2fa300618a2d09b4753143ba392d4c54a7803549"
+    },
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "source_sha": "49d9c744c8de093674f7b12bb5f532fdc08f00a2",
+      "status": "added",
+      "local_sha256": "b3ccacaf9286910f22ba98681601f426288297f17004699f99d9fdd5f7432751"
+    },
+    {
+      "source": "README.md",
+      "target": "notes/upstream-assignment1.md",
+      "source_sha": "660c68da477c7e2888731edab913b052bed8394c",
+      "status": "added",
+      "local_sha256": "800b2eb80b58648be0550f2c17e4fa8f52e507087de6bc4465906df3e76bf3d9"
+    },
+    {
+      "source": "cs336_basics/__init__.py",
+      "target": "assignment1-basics/cs336_basics/__init__.py",
+      "source_sha": "b73e3f1de87fd937f0aafb155017ae668851a732",
+      "status": "preserved",
+      "local_sha256": "d5fd1d330741f2696565b497f25ab2417d56a97a42a1bb89113360f3d8a81749"
+    },
+    {
+      "source": "cs336_basics/checkpointing.py",
+      "target": "assignment1-basics/cs336_basics/checkpointing.py",
+      "source_sha": "776d6961a69fe60b868e7a8e616e484a3dd09068",
+      "status": "preserved",
+      "local_sha256": "c568e32634d431e25f342c0023738160f330778ca767d978284e95c9fd3777c3"
+    },
+    {
+      "source": "cs336_basics/data.py",
+      "target": "assignment1-basics/cs336_basics/data.py",
+      "source_sha": "b2f21b2dd2d8d4e7f598bd1036548b6bc248cf22",
+      "status": "preserved",
+      "local_sha256": "68f4adc05da3c049e76c104b1c4d92f093a655425e0e04d26da831bbf9185be6"
+    },
+    {
+      "source": "cs336_basics/inference.py",
+      "target": "assignment1-basics/cs336_basics/inference.py",
+      "source_sha": "4d024a857152ce278e77a44dd29cf20879b44d79",
+      "status": "added",
+      "local_sha256": "a900437109017d5b6d366cad6f27523466a3cbbfe2e49b2c7a53d09b62b38f6e"
+    },
+    {
+      "source": "cs336_basics/learn.ipynb",
+      "target": "assignment1-basics/cs336_basics/learn.ipynb",
+      "source_sha": "bbdfdb40a51b1349546923913b554d3cf4e48e60",
+      "status": "added",
+      "local_sha256": "ef4474a98c72069f4d943b176317a9ed35de45047b98b8f23abbfe2ef3319324"
+    },
+    {
+      "source": "cs336_basics/losses.py",
+      "target": "assignment1-basics/cs336_basics/losses.py",
+      "source_sha": "858880c2f39de1eb8863d9f8d5b0fb99a8c5bdd7",
+      "status": "preserved",
+      "local_sha256": "8e064a9abedd7dc3d4783e3b24cf4e49763d36768037f59c5784231f40c12080"
+    },
+    {
+      "source": "cs336_basics/main_train.py",
+      "target": "assignment1-basics/cs336_basics/main_train.py",
+      "source_sha": "d348492c04024cc707eb459a4d3256be4223b491",
+      "status": "preserved",
+      "local_sha256": "151b885773464ada1a59a8aee6853dc699b9567a6801a1f2ac5b3c62e24063af"
+    },
+    {
+      "source": "cs336_basics/nn.py",
+      "target": "assignment1-basics/cs336_basics/nn.py",
+      "source_sha": "f2e23906c53301a7b0f29c72b82618cbc66d1aac",
+      "status": "preserved",
+      "local_sha256": "36820faf0fd8f87c3605d1a6603c508b5e201210fc80c53e4f4a3647e72e7000"
+    },
+    {
+      "source": "cs336_basics/optimizer.py",
+      "target": "assignment1-basics/cs336_basics/optimizer.py",
+      "source_sha": "7d906fa62a1fc691ba40557b596b359585792132",
+      "status": "preserved",
+      "local_sha256": "513db142bbdbb018b7146e8456797e55952f9e7aa5676fe44b20a514ae5576af"
+    },
+    {
+      "source": "cs336_basics/preprocess.py",
+      "target": "assignment1-basics/cs336_basics/preprocess.py",
+      "source_sha": "21cb7f938e2d4fbfa8e4f374beb9b472d8e5e364",
+      "status": "preserved",
+      "local_sha256": "d511a7891bd4718a0a44c3d9429272875d1d417a0c1b6f99d4555944bc929122"
+    },
+    {
+      "source": "cs336_basics/run_scripts/baseline.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/baseline.sh",
+      "source_sha": "ad04337c1cd6dac258170a0fe3e42519f268a438",
+      "status": "added",
+      "local_sha256": "f4332591d1f928eb310bd2a904b797b3dd2af8c1854ccc7b9edfb35dc6608ae5"
+    },
+    {
+      "source": "cs336_basics/run_scripts/no_rms_norm.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/no_rms_norm.sh",
+      "source_sha": "a9ec24c7124ba07c1d9511b4e913a00cdd3b15dc",
+      "status": "added",
+      "local_sha256": "3ff622dffc2d076b0fe6ed6f2c9c6337543e724e5c722df4bf9b3b9cdf2bda13"
+    },
+    {
+      "source": "cs336_basics/run_scripts/no_rope.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/no_rope.sh",
+      "source_sha": "448572d679c5afd3d49d095ab3ee984568961a34",
+      "status": "added",
+      "local_sha256": "101a481dafd4047bd049f722d330c311ec1008b5988189a9efd42abf4926bfe4"
+    },
+    {
+      "source": "cs336_basics/run_scripts/owt_dataset.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/owt_dataset.sh",
+      "source_sha": "5fd6a2496f75d2a4fd30a378a2c25e2147208dc2",
+      "status": "added",
+      "local_sha256": "1bfd4ed1e3fa2a7ffacc7d0f8557bda498cec9cb4e22189966521e43a4c4dc94"
+    },
+    {
+      "source": "cs336_basics/run_scripts/post_norm.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/post_norm.sh",
+      "source_sha": "3ee0828c4dd1058d1d0ce3bc03a7c2685db8f453",
+      "status": "added",
+      "local_sha256": "282cd63f5cff2a1aafbbfb77acca1daa7c4c67253826fdbd2bc72ef33aec1051"
+    },
+    {
+      "source": "cs336_basics/run_scripts/silu.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/silu.sh",
+      "source_sha": "7cf1af505e38fb5e727e5a5222af6a637e9ce9fd",
+      "status": "added",
+      "local_sha256": "87de547cada74098b6e84bb152f266b2faf07c2dc6c224d969d11cbfa2a59d89"
+    },
+    {
+      "source": "cs336_basics/run_scripts/sweep_bs.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/sweep_bs.sh",
+      "source_sha": "672b8729e863006aa27bad2dafb4277cc5b7b8ea",
+      "status": "added",
+      "local_sha256": "1794b270912b05eeec26ae12714b9f11f8b3f662cbf366063d2de0d0c0fcdd86"
+    },
+    {
+      "source": "cs336_basics/run_scripts/sweep_lr.sh",
+      "target": "assignment1-basics/cs336_basics/run_scripts/sweep_lr.sh",
+      "source_sha": "f8aceba3f7a8617da011e4ce5deb4aebdaf10c3b",
+      "status": "added",
+      "local_sha256": "143909d2f5a32b5465ee6d4d1bb2d37aef28e282d43e44b73626d3aa70d3b38b"
+    },
+    {
+      "source": "cs336_basics/scheduler.py",
+      "target": "assignment1-basics/cs336_basics/scheduler.py",
+      "source_sha": "afc7444864ccf3809948763b2555858d7d866373",
+      "status": "preserved",
+      "local_sha256": "e9758249e508c6f433415ac6aa94f23d2a84e91d95f1f4b6f5d162b59bcc79e3"
+    },
+    {
+      "source": "cs336_basics/sgd.py",
+      "target": "assignment1-basics/cs336_basics/sgd.py",
+      "source_sha": "c224a9ae2cc7752cc430c86a02b9d60cb7044902",
+      "status": "added",
+      "local_sha256": "7282510ebeaf83b04fcd060807bb9a0a07521db6c8e570486e1664a781d1646e"
+    },
+    {
+      "source": "cs336_basics/tokenizer.py",
+      "target": "assignment1-basics/cs336_basics/tokenizer.py",
+      "source_sha": "cc5dec001350f17051cf3578e53657ca2bc1bc90",
+      "status": "preserved",
+      "local_sha256": "3ab95a9e9ac22ed2ef3272184e97c502f64b9e27b5647b4473214738e0e8f0d5"
+    },
+    {
+      "source": "cs336_basics/train_bpe.py",
+      "target": "assignment1-basics/cs336_basics/train_bpe.py",
+      "source_sha": "cc42016ff5b7f791c5ebbe1fd29eefd0ac078063",
+      "status": "preserved",
+      "local_sha256": "cde206218c9e5fe32b367effe2617db782b07e8b7b2a6b311753d6591c781dbe"
+    },
+    {
+      "source": "cs336_basics/vlogs/1.1文本编码.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/1.1文本编码.ipynb",
+      "source_sha": "b4e6463af9dcdb9af0b7d4f55b7685c76f624986",
+      "status": "added",
+      "local_sha256": "5e37532205de2f992da9ef6d0c636761f6dc466d280169fdc01f40ba124151c7"
+    },
+    {
+      "source": "cs336_basics/vlogs/1.2traiin_bpe.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/1.2traiin_bpe.ipynb",
+      "source_sha": "c1bc759d3a3449ce185558d24f6528359d145472",
+      "status": "added",
+      "local_sha256": "35ea5dd1eb34f7ead71224034dcf209906938b6088f32db1336b6fb43d6f653b"
+    },
+    {
+      "source": "cs336_basics/vlogs/1.3tokenizer.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/1.3tokenizer.ipynb",
+      "source_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "status": "added",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "cs336_basics/vlogs/2.1transformer.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/2.1transformer.ipynb",
+      "source_sha": "f3df639902041fd9f20111e16d1581036c41c046",
+      "status": "added",
+      "local_sha256": "ea355f32766b940a17f2b302ab5206de86cdd42538f3f5991e5fc74567961330"
+    },
+    {
+      "source": "cs336_basics/vlogs/2.2 embedding.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/2.2 embedding.ipynb",
+      "source_sha": "2274a27d7c2b1a4c3a86ea9dc90be7d5a240d459",
+      "status": "added",
+      "local_sha256": "3397e9107e3266eb8840069772d67fde332fc985e05d6174f3ce9ba650dadbc0"
+    },
+    {
+      "source": "cs336_basics/vlogs/2.3 linear.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/2.3 linear.ipynb",
+      "source_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "status": "added",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "cs336_basics/vlogs/3.1 attention.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/3.1 attention.ipynb",
+      "source_sha": "0f7e4e499ae0ea71e850eaaf0bba9e5e8a8f8f70",
+      "status": "added",
+      "local_sha256": "7088a334818f2bb08a29e1c47dba919bcbf723cff3807adc928d8214f86d1fb6"
+    },
+    {
+      "source": "cs336_basics/vlogs/3.3 rope.ipynb",
+      "target": "assignment1-basics/cs336_basics/vlogs/3.3 rope.ipynb",
+      "source_sha": "40746dc9cb665adfeca48d64ba5e2f4a1c5b25a2",
+      "status": "added",
+      "local_sha256": "9c83c4ea13f07379bb6c52f026e3203761f74568bb1e3e7f3b50a436f6736a23"
+    },
+    {
+      "source": "make_submission.sh",
+      "target": "make_submission.sh",
+      "source_sha": "001effa9d0d838bbe1517576418054e7be3b7f3c",
+      "status": "added",
+      "local_sha256": "0b520dc0ed224a42726f566845aeeb2262f4d04271107e3be3b22cb16cc2e5fc"
+    },
+    {
+      "source": "tests/__init__.py",
+      "target": "tests/__init__.py",
+      "source_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "status": "added",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "tests/_snapshots/test_4d_scaled_dot_product_attention.npz",
+      "target": "tests/_snapshots/test_4d_scaled_dot_product_attention.npz",
+      "source_sha": "d52a8408a827a3c9e3250c7cbb9503521ac0a923",
+      "status": "added",
+      "local_sha256": "d9e82c328b6bb720b77e3d8a93c6b1f76ed12cd8f227ee0e0e09bd2863ba0f00"
+    },
+    {
+      "source": "tests/_snapshots/test_adamw.npz",
+      "target": "tests/_snapshots/test_adamw.npz",
+      "source_sha": "a7bb50fd008e70b4bf818329cc9db249c4fbeb08",
+      "status": "added",
+      "local_sha256": "04bd00cf45f11ce45b48862006cc4309ee4e80f0b703f079c50c95246fe41e7a"
+    },
+    {
+      "source": "tests/_snapshots/test_embedding.npz",
+      "target": "tests/_snapshots/test_embedding.npz",
+      "source_sha": "c8d0ce60388058b5aa554c2f7603973da4da334a",
+      "status": "added",
+      "local_sha256": "9bd1f4e1bb72219b6e730223471fcc2bb1009b4cdd26456a8e8861da9c453a11"
+    },
+    {
+      "source": "tests/_snapshots/test_linear.npz",
+      "target": "tests/_snapshots/test_linear.npz",
+      "source_sha": "d918bf16a60f36c3bb55312e2306ff5d9803c7ce",
+      "status": "added",
+      "local_sha256": "cfde1486ea8912825b89a5598561e7267d997cb48eaf2f4d59cf4ad09b34e144"
+    },
+    {
+      "source": "tests/_snapshots/test_multihead_self_attention.npz",
+      "target": "tests/_snapshots/test_multihead_self_attention.npz",
+      "source_sha": "c58ad2600ca43943dec1f804d3a14b73542f1172",
+      "status": "added",
+      "local_sha256": "25e360df94baca585698f06b159cf363cf7fba163b064c22a57400cdb215cfb5"
+    },
+    {
+      "source": "tests/_snapshots/test_multihead_self_attention_with_rope.npz",
+      "target": "tests/_snapshots/test_multihead_self_attention_with_rope.npz",
+      "source_sha": "52d8e9378df9fb01749cb06bed0477a6374d98f8",
+      "status": "added",
+      "local_sha256": "881264fbc7e8c8616a6e2d5ad8f28a4f11c06fc6ea2fd821a123e63c95530bd0"
+    },
+    {
+      "source": "tests/_snapshots/test_positionwise_feedforward.npz",
+      "target": "tests/_snapshots/test_positionwise_feedforward.npz",
+      "source_sha": "a41ceaa39f7eb10d739db6f9c772344fb1d96199",
+      "status": "added",
+      "local_sha256": "0c1ab0bebb191377ae0434938095d1e3192d4ab41e64b6365ef08d10f7bfe41b"
+    },
+    {
+      "source": "tests/_snapshots/test_rmsnorm.npz",
+      "target": "tests/_snapshots/test_rmsnorm.npz",
+      "source_sha": "661c254764c06a5e698086a393fc86afeec57a79",
+      "status": "added",
+      "local_sha256": "d4fda4d9400a5a2fca6c9b276db24719569445b4dc76b387720cd17ed49be01f"
+    },
+    {
+      "source": "tests/_snapshots/test_rope.npz",
+      "target": "tests/_snapshots/test_rope.npz",
+      "source_sha": "d4d837b1c5db7e789930230a56d8d982c946da22",
+      "status": "added",
+      "local_sha256": "c75738341ca5ae750c1cc6703e6af818f0b6ca3d3f3b92ee633bbfc79ecdae1a"
+    },
+    {
+      "source": "tests/_snapshots/test_scaled_dot_product_attention.npz",
+      "target": "tests/_snapshots/test_scaled_dot_product_attention.npz",
+      "source_sha": "f536003c9d4d731fc02087d8431ed6ac6ea9f4b2",
+      "status": "added",
+      "local_sha256": "1ab9ef24c60c2a6ee581f6d1c54b58a377028ca080b2379f09a58e1257322bf2"
+    },
+    {
+      "source": "tests/_snapshots/test_swiglu.npz",
+      "target": "tests/_snapshots/test_swiglu.npz",
+      "source_sha": "01d355c68bc7a99ea0912c129ff7a919bb090608",
+      "status": "added",
+      "local_sha256": "d5d7b5f8ce88bbc1146cc2605d637a8e9aa1449f81fa3d8b6ad667267d20e726"
+    },
+    {
+      "source": "tests/_snapshots/test_train_bpe_special_tokens.pkl",
+      "target": "tests/_snapshots/test_train_bpe_special_tokens.pkl",
+      "source_sha": "47bb966e25ddeea7daa89b50847388f57a60b152",
+      "status": "added",
+      "local_sha256": "0809f2e8609973c69d45fb38c4639d55a0a3aae95733fcaff5eb22d3129549e8"
+    },
+    {
+      "source": "tests/_snapshots/test_transformer_block.npz",
+      "target": "tests/_snapshots/test_transformer_block.npz",
+      "source_sha": "68c912f40b612d3ecb0e63321d1e3bb8d4819aa2",
+      "status": "added",
+      "local_sha256": "c06a47d361c9ddf910f8fe2544480b1a0bb1112f59e72181b3ffd7f904782666"
+    },
+    {
+      "source": "tests/_snapshots/test_transformer_lm.npz",
+      "target": "tests/_snapshots/test_transformer_lm.npz",
+      "source_sha": "24bad6549e829fac87ed4a1071963a1bea0d809e",
+      "status": "added",
+      "local_sha256": "1d3051fd48a821caa12a01c23f9d96f641242df781b60267634c21318fb2edcd"
+    },
+    {
+      "source": "tests/_snapshots/test_transformer_lm_truncated_input.npz",
+      "target": "tests/_snapshots/test_transformer_lm_truncated_input.npz",
+      "source_sha": "eb2b127046dac28bc96594dd1aad5ec8c3de6a44",
+      "status": "added",
+      "local_sha256": "b6a4a682418a537790564822b778bfe424f0793d74fe351986fd583e66362a77"
+    },
+    {
+      "source": "tests/adapters.py",
+      "target": "tests/adapters.py",
+      "source_sha": "571d79166148f4d70b30ad024f06d6453eea9adc",
+      "status": "added",
+      "local_sha256": "613e5efb1b98abb3768489c10e2f8d1f83927cdefe62dbf5d8cacb286173993e"
+    },
+    {
+      "source": "tests/common.py",
+      "target": "tests/common.py",
+      "source_sha": "4b32c3aa1c16ce9313e4b8b1c0a9e9972d289ad1",
+      "status": "added",
+      "local_sha256": "f9f4e859eea004adcbf9ba80e6f114730c5208e7079354b4710a909a1dbd3db1"
+    },
+    {
+      "source": "tests/conftest.py",
+      "target": "tests/conftest.py",
+      "source_sha": "631f0878e6692589edb665bacde527e434b77fce",
+      "status": "added",
+      "local_sha256": "22ee770e6b488526eed45634bb3858f0dc8e15ea93a90b44008f2fbd448344cf"
+    },
+    {
+      "source": "tests/fixtures/address.txt",
+      "target": "tests/fixtures/address.txt",
+      "source_sha": "f5c60172dda746e00c11de6c7c76745d3c4ed38b",
+      "status": "added",
+      "local_sha256": "fc1f209025d3181137b8953cfeb559ab186782d48b93182eac2b6401816c1df4"
+    },
+    {
+      "source": "tests/fixtures/corpus.en",
+      "target": "tests/fixtures/corpus.en",
+      "source_sha": "2c1f08d50088d5610e216d2ffcaa7497339cffe0",
+      "status": "added",
+      "local_sha256": "617f603a49eeb8a20de9d922d11a5d70e1d362327b9e91718bea2cdcdf9816ff"
+    },
+    {
+      "source": "tests/fixtures/german.txt",
+      "target": "tests/fixtures/german.txt",
+      "source_sha": "1b53153ca83b747d4db87dae0a114f569f594d8a",
+      "status": "added",
+      "local_sha256": "372a3b9d896f2774e83721ea5d9aedc77a65ea31d7dfd77c4dbc6ee5eac50c28"
+    },
+    {
+      "source": "tests/fixtures/gpt2_merges.txt",
+      "target": "tests/fixtures/gpt2_merges.txt",
+      "source_sha": "9f24b7ad6fe75fcd2445a5c95b19af62dc45b247",
+      "status": "added",
+      "local_sha256": "ac33235097fe06d4a8fff0feac994644809e6eb6ab70669e1e9fd40ae032428e"
+    },
+    {
+      "source": "tests/fixtures/gpt2_vocab.json",
+      "target": "tests/fixtures/gpt2_vocab.json",
+      "source_sha": "1f1d9aaca301414e7f6c9396df506798ff4eb9a6",
+      "status": "added",
+      "local_sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+    },
+    {
+      "source": "tests/fixtures/special_token_double_newlines_non_whitespace.txt",
+      "target": "tests/fixtures/special_token_double_newlines_non_whitespace.txt",
+      "source_sha": "caeb4f7611a97f0979d7382f28cc1608258647fc",
+      "status": "added",
+      "local_sha256": "385b1a48679d11ec498dbda931e5d6bb035d0db87998730197bf1e11ab97d297"
+    },
+    {
+      "source": "tests/fixtures/special_token_trailing_newlines.txt",
+      "target": "tests/fixtures/special_token_trailing_newlines.txt",
+      "source_sha": "05cf5baa5b0316bc2be0971019e0ab471d38b633",
+      "status": "added",
+      "local_sha256": "c7fac215bf4c84da8e1bbad6ff1fe9c07754f961479aa25c26b3460a2077da82"
+    },
+    {
+      "source": "tests/fixtures/tinystories_sample.txt",
+      "target": "tests/fixtures/tinystories_sample.txt",
+      "source_sha": "6173625e181686d3edbe42dfbf96aa03e995434f",
+      "status": "added",
+      "local_sha256": "defaedb58bf28079f3e29c6142cb7f3568d331a577e0911c5d7925c465c50c43"
+    },
+    {
+      "source": "tests/fixtures/tinystories_sample_5M.txt",
+      "target": "tests/fixtures/tinystories_sample_5M.txt",
+      "source_sha": "4632b496ae5ecea74d92c19ee3b9a92c57547aa1",
+      "status": "added",
+      "local_sha256": "7cc2577b9e1f9ed703b13ca651103bf421c91912fcbcb2d024213858e0981d87"
+    },
+    {
+      "source": "tests/fixtures/train-bpe-reference-merges.txt",
+      "target": "tests/fixtures/train-bpe-reference-merges.txt",
+      "source_sha": "b25985273d3505a03ba528433153216125ecea9c",
+      "status": "added",
+      "local_sha256": "f74582742501ca5edd5be2b66adb83d7ae2b8d6363fd276771792e70de1428ed"
+    },
+    {
+      "source": "tests/fixtures/train-bpe-reference-vocab.json",
+      "target": "tests/fixtures/train-bpe-reference-vocab.json",
+      "source_sha": "3c164bf2121aca255c590d4262437a42f26192ac",
+      "status": "added",
+      "local_sha256": "e28bfb2a4fa95ec786faf462cb0d504bc15773360f4891bdf262be171ab86c18"
+    },
+    {
+      "source": "tests/fixtures/ts_tests/model.pt",
+      "target": "tests/fixtures/ts_tests/model.pt",
+      "source_sha": "82f9fe0d87732f8f0e9c2ebf437ac5e419069602",
+      "status": "added",
+      "local_sha256": "d58fbec54e850eed891a0ed21f2a1d16ba5ad1ef849bd999a99d413259824b03"
+    },
+    {
+      "source": "tests/fixtures/ts_tests/model_config.json",
+      "target": "tests/fixtures/ts_tests/model_config.json",
+      "source_sha": "1c52adf0e5e79130cb7462dd5faf8c82d5fe5409",
+      "status": "added",
+      "local_sha256": "aa27d10349b136e1f1ad9c9f506bafc99786816cb44dd6d5067ec04bc25b1699"
+    },
+    {
+      "source": "tests/test_data.py",
+      "target": "tests/test_data.py",
+      "source_sha": "56f6c6fb500c1cf741d1f87a69e46c3ff073240d",
+      "status": "added",
+      "local_sha256": "e926adc0da151583092e2a4d35bc482b1ca29023bfcf240ef4d405f190649025"
+    },
+    {
+      "source": "tests/test_model.py",
+      "target": "tests/test_model.py",
+      "source_sha": "1695e1bd827c3e3ec73e1b18d6b31356e0091469",
+      "status": "added",
+      "local_sha256": "d4b65590b746f70eb9782a6475bd0fb77c86c224ab0caf8ec8bb4b8855f15a69"
+    },
+    {
+      "source": "tests/test_nn_utils.py",
+      "target": "tests/test_nn_utils.py",
+      "source_sha": "dbeb5e5bd8ee8cf5e6923b0e130d82c19a6c1162",
+      "status": "added",
+      "local_sha256": "d88b0de95636617bae1000e61538b6df8f498f4404e014fd0d4f74b137d2d49c"
+    },
+    {
+      "source": "tests/test_optimizer.py",
+      "target": "tests/test_optimizer.py",
+      "source_sha": "7aaaf1ffe94e4dfd303f87666c2695cf387a1069",
+      "status": "added",
+      "local_sha256": "53498ba85e149e46d6d8a0110bed111cfd4de80c05c995da6d57a69473c8afb8"
+    },
+    {
+      "source": "tests/test_serialization.py",
+      "target": "tests/test_serialization.py",
+      "source_sha": "7c11a2b4f18ae8b71c36d5b6e4e24cbc5963724c",
+      "status": "added",
+      "local_sha256": "a9b6f94a782ac1cdf74845a0a9c9004b0d22d46e55c6a6f6a5ba7da0c1826270"
+    },
+    {
+      "source": "tests/test_tokenizer.py",
+      "target": "tests/test_tokenizer.py",
+      "source_sha": "a04e97113106c5a741b6076087f2afe79918d04a",
+      "status": "added",
+      "local_sha256": "3fedc4a3826a7e49483abb88a0848a9e49941a8dc829cc74bb274909ac57ccb9"
+    },
+    {
+      "source": "tests/test_train_bpe.py",
+      "target": "tests/test_train_bpe.py",
+      "source_sha": "3c392ecd62a283675e879d4429e0610595a945b0",
+      "status": "added",
+      "local_sha256": "16418ae5dab1b509a967186d1bf025ad3647a6998a4489c991031d9f172a65ef"
+    }
+  ],
+  "validation": {
+    "date": "2026-10-03",
+    "pytest": "62 passed, 2 skipped, 85 subtests passed",
+    "inference_smoke": "passed"
+  }
+}

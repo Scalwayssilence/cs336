@@ -1,0 +1,33 @@
+[
+  {
+    "artifact": "out/run1/ckpt_final.pt",
+    "bytes": 102406856,
+    "sha256": "c04e1d38538329fac718320d511c38a073dd8f73761d68be536339a719670d84",
+    "checkpoint_uploaded": false
+  },
+  {
+    "artifact": "out/run1/config.json",
+    "bytes": 655,
+    "sha256": "9bd28d8321557d20634ca3049096e20b05f7d877fe40fc2379b60b4947a59d20"
+  },
+  {
+    "artifact": "out/run1/metrics.jsonl",
+    "bytes": 10914,
+    "sha256": "53bfe62253e50abb2d10bea47816b8a892af6888e0cf3a92feab59c3520f3a43"
+  },
+  {
+    "artifact": "out/run1/train.log",
+    "bytes": 6040,
+    "sha256": "cd15ff38d0153f560fa4f955b6c64cb5ea832ef4584b2de1ea88b4ab7910bd1e"
+  },
+  {
+    "artifact": "data/TinyStoriesV2-GPT4-train/vocab.json",
+    "bytes": 264348,
+    "sha256": "57a584f60485eb3c4170457f1339d9ca287b5b38ba27c74f332da664beab30c8"
+  },
+  {
+    "artifact": "data/TinyStoriesV2-GPT4-train/merges.txt",
+    "bytes": 94216,
+    "sha256": "c932aa2e9c7f4427d12f2992d24015fa144ba341ad1adff8bd8fd1261ac4b20f"
+  }
+]
